@@ -1,0 +1,12 @@
+#places {
+  cursor: pointer;
+  color: blue;
+}
+
+#places:hover {
+  text-decoration: underline;
+}
+
+#show-places {
+  display: none;
+}

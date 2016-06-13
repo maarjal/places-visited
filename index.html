@@ -25,11 +25,17 @@
               <input type="text" class="form-control" id="new-landmark">
             </div>
             <div class="form-group">
-              <label for="new-season">Famous Landmark</label>
-              <input type="text" class="form-control" id="new-season">
+              <label for="new-season">Season of visit</label>
+              <select class="c-select" id="new-season">
+                <option selected>Select a season</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Autumn">Autumn</option>
+                <option value="Winter">Winter</option>
+              </select>
             </div>
             <div class="form-group">
-              <label for="new-note">Famous Landmark</label>
+              <label for="new-note">Notes</label>
               <input type="text" class="form-control" id="new-note">
             </div>
 
@@ -44,7 +50,16 @@
         <div class="col-md-6">
           <div id="show-places">
             <h2></h2>
-
+            <h4 id="show-landmark"></h4>
+            <h4 id="show-season"></h4>
+            <h4 id="show-note"></h4>
+            <form id="landmark">
+              <div class="form-group">
+                <label for="add-landmark">Add a Landmark</label>
+                <input type="text" class="form-control" id="add-landmark">
+              </div>
+              <button type="submit" class="btn">Add</button>
+            </form>
           </div>
         </div>
       </div>
